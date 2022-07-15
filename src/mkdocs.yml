@@ -1,0 +1,15 @@
+site_name: IIoT&CPS
+theme:
+  name: material
+  
+plugins:
+  - i18n:
+      default_language: es
+      languages:
+        en: english
+        es: spanish
+      material_alternate: true
+
+  - exclude:
+      glob:
+        - "*.base.md"
