@@ -25,7 +25,7 @@ mkdocs-material-extensions==1.0.3
 mkdocs-static-i18n==0.46
 mmg==1.0.2
 packaging==21.3
-pip==20.2.3
+pip==21.1
 pydantic==1.9.1
 pygls==0.12
 Pygments==2.12.0
