@@ -1,0 +1,340 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jul 16 11:53:20 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/AngelFernandez/git/iiotandcps-docs
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+NVM_HOME = C:\Users\AngelFernandez\AppData\Roaming\nvm
+# environment
+WALLABY_PRODUCTION = true
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\ANGELF~1\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\AngelFernandez\git\iiotandcps-docs
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files (x86)\Schneider Electric\IGSS32\V15.0\GSS\;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files (x86)\Schneider Electric\SoMachine Software\Tools\ConfigurationManager\;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\PuTTY\;C:\Users\AngelFernandez\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\cmake\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\AngelFernandez\AppData\Local\Microsoft\WindowsApps;C:\Users\AngelFernandez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\influxdb-1.8.3-1;C:\Program Files\GrafanaLabs\grafana\bin;C:\Users\AngelFernandez\AppData\Local\gitkraken\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\bin\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\script;C:\Users\AngelFernandez\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\mingw64\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132501628377246034
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+ONEDRIVE = C:\Users\AngelFernandez\OneDrive
+# environment
+USERPROFILE = C:\Users\AngelFernandez
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+MPS_INSTALL = C:\Program Files\MATLAB\MATLAB Production Server\R2021a\
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23940_RMHJVELGTDCNDKKJ
+# environment
+COMPUTERNAME = PC-078
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = AngelFernandez
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\AngelFernandez\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\PC-078
+# environment
+ONEDRIVECONSUMER = C:\Users\AngelFernandez\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = PC-078
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\AngelFernandez\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\352611f242a0c8463d6408c7612a7e1e-1.69.1-main-sock
+# environment
+HOMEPATH = \Users\AngelFernandez
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\AngelFernandez\AppData\Roaming
+# environment
+TEMP = C:\Users\ANGELF~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 8e0a
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 23940
+# environment
+USERDOMAIN_ROAMINGPROFILE = PC-078
+# variable set hash-table stats:
+# Load=94/1024=9%, Rehash=0, Collisions=18/118=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/AngelFernandez/git/iiotandcps-docs, mtime 1657913044): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+translate_files:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := translate_files
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 6):
+	@echo "Making translation files"
+	@echo "========================="
+	@mmg -r -y
+	@echo " "
+	@echo "Moving files to build directory"
+	@echo "========================="
+	@py src/build/copy.py
+	@cp src/build/mkdocs.yml build/mkdocs.yml
+	@echo " "
+	@echo "Done"
+
+all: translate_files build_docs
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-15 23:30:05
+#  File has been updated.
+#  Successfully updated.
+
+test: translate_files serve
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build_docs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
+	@echo "Building sources"
+	@echo "========================="
+	@mkdocs build -f build/mkdocs.yml
+	@echo " "
+	@echo "Done"
+
+serve_build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	@echo "Serve mkdocs"
+	@echo "========================="
+	@mkdocs serve -f build/mkdocs.yml
+
+dev:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@echo "Serve mkdocs"
+	@echo "========================="
+	@mkdocs serve -f src/mkdocs.yml
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+serve:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 157 B / avg = 7 B
+# current buf: size = 8162 B / used = 157 B / count = 20 / avg = 7 B
+
+# strcache performance: lookups = 34 / hit rate = 41%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=1/34=3%
+# Finished Make data base on Sat Jul 16 11:53:20 2022
+
+ 

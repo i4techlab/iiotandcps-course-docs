@@ -1,0 +1,19 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/AngelFernandez/git/iiotandcps-docs'
+echo "Making translation files"
+echo "========================="
+mmg -r -y
+echo " "
+echo "Moving files to build directory"
+echo "========================="
+py src/build/copy.py
+cp src/build/mkdocs.yml build/mkdocs.yml
+echo " "
+echo "Done"
+echo "Building sources"
+echo "========================="
+mkdocs build -f build/mkdocs.yml
+echo " "
+echo "Done"
+make.exe: Leaving directory 'c:/Users/AngelFernandez/git/iiotandcps-docs'
+ 

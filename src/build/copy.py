@@ -26,4 +26,4 @@ def copy(src, dest):
         os.remove(file)
     
 if __name__ == '__main__':
-    copy('.\\base', '.\\docs')
+    copy('.\\src\\docs', '.\\build\\docs')
