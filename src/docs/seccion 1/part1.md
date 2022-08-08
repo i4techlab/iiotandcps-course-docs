@@ -16,7 +16,7 @@ Este documento guía solo cubre la primera parte del proyecto, que tiene por obj
 
 En la arquitectura IIoT, vosotros mismos generaréis datos artificiales dentro del propio software de gestión de flujos de comunicación (Node-RED) que os permitan verificar que la base de datos y los paneles de visualización funcionan como se espera. Se espera que sigáis las secciones en orden ya que van tratando de forma pautada los pasos necesarios para implementar la arquitectura IIoT propuesta.
 
-![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.001.png){: .center}
+![](./img/001.png){: .center}
 
 Cuando lo hayáis logrado, podréis avanzar a la segunda parte del proyecto, que también dispone de su respectiva guía, que consiste en la integración de la arquitectura IIoT que habéis generado en un sistema ciber-físico (arquitectura CPS).
 ## 4.1. Motivación
