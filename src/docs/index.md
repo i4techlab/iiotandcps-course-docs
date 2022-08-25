@@ -19,7 +19,7 @@ Tened en cuenta que la parte más importante de este proyecto es que sepáis cre
 
 Durante el transcurso de toda la práctica afrontaréis las dificultades propias de la implementación y puesta en marcha, y desarrollaréis habilidades de resolución de problemas relacionados con la operación conjunta de todos los elementos presentes en la arquitectura que se pretende implementar. Además, indicar que se trata de un proyecto en el que debéis ser capaces de solucionar los problemas que os encontréis. No tengáis miedo en borrar una máquina virtual y crear una nueva si veis que habéis cometido errores o si no estáis seguros de algo, es parte del proceso.
 
-## Contenido del documento
+
 
 <!-- [en] -->
 # Introduction
