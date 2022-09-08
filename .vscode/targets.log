@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 16 11:53:20 2022
+# Make data base, printed on Mon Aug 08 10:55:18 2022
 
 # Variables
 
@@ -16,6 +16,8 @@ GNUMAKEFLAGS :=
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # automatic
 ?F = $(notdir $?)
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
 # default
 .SHELLFLAGS := -c
 # makefile
@@ -32,8 +34,10 @@ HOMEDRIVE = C:
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # makefile
 CURDIR := c:/Users/AngelFernandez/git/iiotandcps-docs
-# default
-SHELL := sh.exe
+# makefile
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
+# environment
+CONFIG_SITE = C:/Program Files/Git/mingw64/etc/config.site
 # environment
 WINDIR = C:\Windows
 # environment
@@ -41,7 +45,7 @@ VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
-NVM_HOME = C:\Users\AngelFernandez\AppData\Roaming\nvm
+NVM_HOME = C:\Program Files\nvm
 # environment
 WALLABY_PRODUCTION = true
 # environment
@@ -55,17 +59,25 @@ PROGRAMW6432 = C:\Program Files
 # environment
 NVM_SYMLINK = C:\Program Files\nodejs
 # environment
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+# environment
 PROGRAMDATA = C:\ProgramData
+# environment
+MSYSTEM_CHOST = x86_64-w64-mingw32
 # environment
 VSCODE_CWD = C:\Users\AngelFernandez\git\iiotandcps-docs
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = C:\Program Files (x86)\Schneider Electric\IGSS32\V15.0\GSS\;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files (x86)\Schneider Electric\SoMachine Software\Tools\ConfigurationManager\;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\PuTTY\;C:\Users\AngelFernandez\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\cmake\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\AngelFernandez\AppData\Local\Microsoft\WindowsApps;C:\Users\AngelFernandez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\influxdb-1.8.3-1;C:\Program Files\GrafanaLabs\grafana\bin;C:\Users\AngelFernandez\AppData\Local\gitkraken\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\bin\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\script;C:\Users\AngelFernandez\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\mingw64\bin
+PATH = C:\Users\AngelFernandez\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\AngelFernandez\bin;C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.14.1962.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\Schneider Electric\IGSS32\V15.0\GSS;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files (x86)\Schneider Electric\SoMachine Software\Tools\ConfigurationManager;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\PuTTY;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\cmake\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\AngelFernandez\AppData\Local\Microsoft\WindowsApps;C:\Users\AngelFernandez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\influxdb-1.8.3-1;C:\Program Files\GrafanaLabs\grafana\bin;C:\Users\AngelFernandez\AppData\Local\gitkraken\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\bin\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\script;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Users\AngelFernandez\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\mingw64\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
 ZES_ENABLE_SYSMAN = 1
+# environment
+_ = C:/Users/AngelFernandez/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# environment
+LC_ALL = C
 # environment
 CHOCOLATEYLASTPATHUPDATE = 132501628377246034
 # environment
@@ -77,21 +89,37 @@ USERPROFILE = C:\Users\AngelFernandez
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
+MSYSTEM_CARCH = x86_64
+# environment
+EXEPATH = C:\Program Files\Git\bin
+# environment
 ALLUSERSPROFILE = C:\ProgramData
+# environment
+PLINK_PROTOCOL = ssh
+# environment
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
 # environment
 NUMBER_OF_PROCESSORS = 8
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
 MPS_INSTALL = C:\Program Files\MATLAB\MATLAB Production Server\R2021a\
+# environment
+ORIGINAL_TEMP = C:/Users/ANGELF~1/AppData/Local/Temp
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23940_RMHJVELGTDCNDKKJ
+DISPLAY = needs-to-be-defined
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19148_VCATTTXQOTKPECAG
+# environment
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\AngelFernandez\bin;C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.14.1962.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\Schneider Electric\IGSS32\V15.0\GSS;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\Program Files (x86)\Schneider Electric\SoMachine Software\Tools\ConfigurationManager;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\PuTTY;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\cmake\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\AngelFernandez\AppData\Local\Microsoft\WindowsApps;C:\Users\AngelFernandez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\influxdb-1.8.3-1;C:\Program Files\GrafanaLabs\grafana\bin;C:\Users\AngelFernandez\AppData\Local\gitkraken\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\bin\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2021a\script;C:\Program Files\nvm;C:\Program Files\nodejs;C:\Users\AngelFernandez\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\mingw64\bin
 # environment
 COMPUTERNAME = PC-078
+# environment
+PWD = C:/Users/AngelFernandez/git/iiotandcps-docs
 # environment
 PROGRAMFILES = C:\Program Files
 # default
@@ -99,13 +127,23 @@ PROGRAMFILES = C:\Program Files
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+WT_SESSION = 0d78c105-6170-41d0-810b-4bcc7083aa31
 # environment
 USERNAME = AngelFernandez
 # environment
 PUBLIC = C:\Users\Public
 # environment
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\Users\AngelFernandez
+# environment
+VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\AngelFernandez\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
@@ -121,15 +159,25 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = PC-078
 # environment
+HOSTNAME = PC-078
+# environment
 MAKELEVEL := 0
+# environment
+SSH_ASKPASS = C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
+SHLVL = 2
+# environment
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+# environment
 JAVA_HOME = C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\
 # default
 MAKE_VERSION := 4.2.1
+# environment
+MINGW_CHOST = x86_64-w64-mingw32
 # makefile
 .DEFAULT_GOAL := all
 # environment
@@ -139,11 +187,15 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 LOCALAPPDATA = C:\Users\AngelFernandez\AppData\Local
 # environment
-PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := make.exe
+# environment
+OLDPWD = C:/Users/AngelFernandez/git
 # default
 .VARIABLES := 
+# environment
+TMPDIR = C:\Users\ANGELF~1\AppData\Local\Temp
 # automatic
 *F = $(notdir $*)
 # environment
@@ -163,9 +215,13 @@ MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
+ORIGINAL_TMP = C:/Users/ANGELF~1/AppData/Local/Temp
+# environment
 SYSTEMROOT = C:\Windows
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+MINGW_PREFIX = C:/Program Files/Git/mingw64
 # automatic
 +F = $(notdir $+)
 # environment
@@ -173,19 +229,25 @@ APPDATA = C:\Users\AngelFernandez\AppData\Roaming
 # environment
 TEMP = C:\Users\ANGELF~1\AppData\Local\Temp
 # environment
+WT_PROFILE_ID = {00000000-0000-0000-0000-000000012345}
+# environment
 COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+MSYSTEM = MINGW64
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
 # environment
-LC_ALL = C
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
 # environment
 SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
 # environment
 PROCESSOR_REVISION = 8e0a
 # default
@@ -195,11 +257,15 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 23940
+TERM = xterm-256color
+# environment
+VSCODE_PID = 19148
+# environment
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
 # environment
 USERDOMAIN_ROAMINGPROFILE = PC-078
 # variable set hash-table stats:
-# Load=94/1024=9%, Rehash=0, Collisions=18/118=15%
+# Load=127/1024=12%, Rehash=0, Collisions=22/151=15%
 
 # Pattern-specific Variable Values
 
@@ -293,7 +359,8 @@ build_docs:
 
 serve_build:
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Modification time 
+ never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 30):
 	@echo "Serve mkdocs"
@@ -335,6 +402,6 @@ serve:
 # strcache performance: lookups = 34 / hit rate = 41%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/34=3%
-# Finished Make data base on Sat Jul 16 11:53:20 2022
+# Finished Make data base on Mon Aug 08 10:55:18 2022
 
  

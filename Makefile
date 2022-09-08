@@ -1,7 +1,5 @@
 all: translate_files build_docs
 
-test: translate_files serve
-
 translate_files:
 	@echo "Making translation files"
 	@echo "========================="
@@ -26,7 +24,7 @@ dev:
 	@echo "========================="
 	@mkdocs serve -f src/mkdocs.yml
 
-serve_build:
+serve:
 	@echo "Serve mkdocs"
 	@echo "========================="
 	@mkdocs serve -f build/mkdocs.yml

@@ -9,6 +9,7 @@ echo "========================="
 py src/build/copy.py
 cp src/build/mkdocs.yml build/mkdocs.yml
 echo " "
+ 
 echo "Done"
 echo "Building sources"
 echo "========================="
