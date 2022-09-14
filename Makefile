@@ -1,6 +1,7 @@
-all: translate_files build_docs
+all: clean translate build
 
-translate_files:
+translate:
+	@echo " "
 	@echo "Making translation files"
 	@echo "========================="
 	@mmg -r -y
@@ -12,7 +13,8 @@ translate_files:
 	@echo " "
 	@echo "Done"
 
-build_docs:
+build:
+	@echo " "
 	@echo "Building sources"
 	@echo "========================="
 	@mkdocs build -f build/mkdocs.yml
@@ -20,11 +22,21 @@ build_docs:
 	@echo "Done"
 
 dev:
+	@echo " "
 	@echo "Serve mkdocs"
 	@echo "========================="
 	@mkdocs serve -f src/mkdocs.yml
 
 serve:
+	@echo " "
 	@echo "Serve mkdocs"
 	@echo "========================="
 	@mkdocs serve -f build/mkdocs.yml
+
+clean:
+	@echo " "
+	@echo "Cleaning build directory"
+	@echo "========================="
+	@rm -rf build
+	@echo " "
+	@echo "Done"
