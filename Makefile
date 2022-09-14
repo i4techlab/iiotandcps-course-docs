@@ -7,7 +7,7 @@ translate_files:
 	@echo " "
 	@echo "Moving files to build directory"
 	@echo "========================="
-	@py src/build/copy.py
+	@python src/build/copy.py
 	@cp src/build/mkdocs.yml build/mkdocs.yml
 	@echo " "
 	@echo "Done"
