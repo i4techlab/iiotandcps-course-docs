@@ -1,7 +1,26 @@
 <!-- multilingual suffix: en, es -->
 
 <!-- [en] -->
+## Available resources
+You have additional documentation of the technologies used throughout the project:
 
+Communications protocols.
+
+Virtual machines and Azure.
+
+SSH and cryptographic keys.
+
+Docker and Docker Compose.
+
+InfluxDB.
+
+Node-RED.
+
+Grafana.
+
+MATLAB Online.
+
+In addition, in Atenea you will find videos that introduce Node-RED and Influx in a practical way, so that you can see how you are expected to interact with both software.
 
 
 

@@ -2,7 +2,118 @@
 
 <!-- [en] -->
 
+# Development of an IIoT architecture in the cloud (cloud computing)
 
+This guidance document only covers the first part of the project, which aims to build the IIoT architecture and verify that it has the ability to manage data flows. Communications with the industrial environment and data processing will be carried out in the second part of the project.
+
+**In section 1. the structure of the IIoT architecture is presented and the objectives of this first part of the project are defined, as well as the results that you must obtain and contribute.**
+# Introduction to the first part of the project
+In the IIoT architecture, you will generate artificial data within the communication flow management software itself (Node-RED) that will allow you to verify that the database and the visualization panels work as expected. You are expected to follow the sections in order as they cover the steps necessary to implement the proposed IIoT architecture.
+
+![](Aspose.Words.142119bc-beea-447c-9445-5e8e65b15c58.001.png)
+
+When you have achieved it, you will be able to advance to the second part of the project, which also has its respective guide, which consists of the integration of the IIoT architecture that you have generated in a cyber-physical system (CPS architecture).
+## Motivation
+Validation of the correct operation of an IIoT architecture in isolation is essential to ensure that, in the future, when it is integrated into the design of the technological solution of which it is a part, it complies with the desired specifications.
+
+In an industrial environment, where it may be necessary to scale a solution like the one you are going to generate due to the need to connect several PLCs and databases, it is especially important to make sure that the solution has been correctly designed. In this way it will be possible to deal more effectively with the problems inherent to the integration of this solution in an industrial environment, starting from the assumption that the designed solution can be treated as a product in the form of a closed package, which admits certain types of data as inputs and manage them in a specific way.
+
+
+## Objectives of the first part of the project
+1. In this first part of the project you must achieve three objectives:
+1. Set up a virtual environment (cloud computing) using a Microsoft Azure platform virtual machine and the Docker software packaging system.
+1. Generate a base IIoT architecture on which you will be able to develop aspects related to industrial communications in the second part of the practice.
+1. Launch applications that will perform specific functions through the following software: NodeRED, InfluxDB and Grafana.
+## Results of the first part of the project
+- Taking into account the objectives that have been mentioned in the previous section, the results that you must obtain and contribute at the end of this first part of the practice are:
+- Ensure that the virtual machine is operational and that the necessary software is correctly installed.
+- Demonstrate through screenshots that you are able to generate synthetic data in Node-RED and can visualize it in an InfluxDB database.
+
+- Demonstrate through screenshots that you generate a Grafana dashboard that allows you to view the data stored in an InfluxDB database.
+![](Aspose.Words.142119bc-beea-447c-9445-5e8e65b15c58.002.png)
+
+**Throughout this document it will be clearly indicated at which points of the process (specifically there are 3) you are expected to take screenshots to demonstrate that your implementation works correctly. A green box will be used like the one that frames this text to make it as easy as possible to identify it.**
+
+# Introduction to the second part of the project
+
+The second part of the project aims to integrate the IIoT architecture already generated on a cyber-physical system or *CPS*. A cyber-cyber-physical system is any device that integrates computing, storage and communication capabilities to control and interact with a physical process. Cyber-physical systems can be connected to each other and also to remote storage and data management services, like the ones you work with in the course project.
+
+Once the IIoT architecture has been implemented, it is proposed that you integrate a communications system with a simulated industrial environment and include data processing prior to displaying the data in Grafana.
+
+![](Aspose.Words.f6e8c0f7-6816-45e1-8bf6-de507594e7e2.001.png)
+
+## Communications with industrial environment
+
+Through a communication protocol, such as TCP/IP in this case, it is possible to introduce a flow of data coming from a plant (e.g. through its PLCs) in an IIoT architecture such as the one developed up to now.
+
+In practice, the use of TCP/IP will allow you to receive and store the data sent by a vibration sensor located in a machine, which is made up of four statistical parameters calculated on the vibration signal of the machine: *RMS, Skewness, Kurtosis and Mean*. These parameters are captured and recorded in memory locations of a PLC compatible with the Modbus TCP/IP communications protocol, which has an Ethernet communications port.
+
+## Data processing
+
+The data processing has to analyze the stored data to obtain useful information (e.g. alarms, costs, logistics management). In your case, you will implement a code in the MATLAB environment that allows you to extract value-added information from the data received. This code must calculate the average value of each of the five parameters taking the data that has been sent in the last minute of recorded information.
+
+
+## Motivation
+In this part of the project you will simulate the process of setting up a communication flow with an industrial environment (which can be located anywhere in the world) with a certain data processing capacity, which will be carried out in the application in which MATLAB cloud. Apart from MATLAB, the rest of the technologies that will be used have already been presented and configured in the first part of the project (Docker, Node-RED, Influx, Grafana).
+## Objectives of the second part of the project
+In this second part of the project you must meet 2 objectives:
+
+1. Implement scripts on MATLAB Online to carry out the processing of the data received from the vibration sensor.
+1. Modify the IIoT architecture generated in the first part of the project so that it receives the data from the vibration sensor.
+## Results of the second part of the project
+Taking into account the objectives that have been mentioned in the previous section, the results that you must obtain and contribute at the end of this second part of the practice are:
+
+- In Node-RED, receive and preprocess the data emitted by the sensor and write it to an InfluxDB database.
+- Using MATLAB Online, read the data from the database, process it, and write it back to the database.
+
+- Visualize in Grafana both the original data and the processed data.
+
+![](Aspose.Words.f6e8c0f7-6816-45e1-8bf6-de507594e7e2.002.png)
+
+**To demonstrate that you have achieved these results, you will be asked, over a period of time of approximately 1-2 weeks, to configure the virtual machine with the cheapest option and leave it powered on with the Docker containers running and share the IP with the teaching team. This will imply that during all this time the IP will be the same and we will be able to access it to validate your architecture.** 
+
+# Introduction to the third part of the project
+
+The third part of the project aims to integrate a data analysis application in the cloud.
+
+After completing the implementation of the CPS & IIoT architecture, it is proposed that you implement a data analysis application on MATLAB Online, using the four statistical indicators of the vibration data that have been measured and stored in the database.
+
+![](Aspose.Words.228bde5e-4c87-4adc-8f0f-625d9cb87356.001.png)
+
+## Motivation
+
+In this part of the project you will use mathematical models generated in MATLAB to determine if the vibration data indicates that the industrial equipment is healthy or if a specific fault is occurring, which responds to a specific distribution of the parameters.
+
+The mathematical models, which are provided to you in the form of a MATLAB *workspace* (.mat file extension), have been generated *offline* using data from the same simulated PLC with which you have been working so far. Thus, these models are trained to identify certain patterns in the data, as long as they come from the same team. These models will interpret the data that you will read from MATLAB Online and will classify them, first as known or unknown, and then if they are known, it will be decided if they are believed to correspond to the operating condition of a healthy system or a system with a specific fault, which in this case is defined as excessive wear of one of the bearings of the electric motor in which the vibration sensors that send information to the PLC are mounted.
+
+In addition, a membership value will be determined for each data entry considered to be known. The mathematical model expresses as a membership value the probability that the data belongs to one class or another. Therefore, in this case there will be two probabilities, which in total must add up to 1 (or 100%) because only two operating conditions are considered, "Healthy" and "Bearing failure".
+
+In practice, this value of belonging provides extra information to maintenance technicians who are in the industrial environment where the electric motor and the PLC are located. In this way, decision-making can be carried out based on:
+
+- The experience and knowledge of the machine or similar equipment by the technical staff.
+- The values of belonging that the neural network has evaluated with recent data, despite the fact that the neural network has been generated by taking historical data and therefore provides the ability to identify patterns and potentially provide information that allows anticipating maintenance or breakdowns.
+
+## Objectives of the third part of the project
+
+In this third part of the project you must meet 2 objectives:
+
+1. Implement a single script on MATLAB Online that you must complete to achieve the desired data analysis.
+1. Integrate the data analysis cloud application into the CPS & IIoT architecture generated in the second part of the project, so that they can be viewed by Grafana.
+
+
+## Results of the third part of the project
+
+Taking into account the objectives that have been mentioned in the previous section, the **results** that you must obtain and contribute at the end of this third part of the practice are:
+
+- Using MATLAB Online, read the data from the database, retrieve the four original indicators and perform the data processing.
+- Determine from the result of the data analysis whether the conditions described by the data are known and if they are, conclude whether the industrial equipment is failing and write the result to the database.
+- Write diagnostic and novelty detection data to the database.
+- Visualize the processed data in Grafana.
+
+
+**To demonstrate that you have achieved these results, you will be asked, over a period of time of approximately 1-2 weeks, to configure the virtual machine with the cheapest option and leave it powered on with the Docker containers running and share the IP with the teaching team. This will imply that during all this time the IP will be the same and we will be able to access it to validate your architecture.**
+
+![](Aspose.Words.228bde5e-4c87-4adc-8f0f-625d9cb87356.002.png)
 
 
 <!-- [es] -->
@@ -49,7 +160,6 @@ Teniendo en cuenta los objetivos que se han mencionado en el apartado anterior, 
 
 La segunda parte del proyecto tiene por objetivo la integración  de la arquitectura IIoT ya generada sobre un sistema ciber-físico o *CPS*. Un sistema ciber ciber físico es todo aquel dispositivo que integra capacidades de computación, almacenamiento y  comunicación para controlar e interactuar con un proceso físico. Los sistemas ciber-físicos  pueden estar conectados entre sí y también con servicios remotos de almacenamiento y gestión  de datos, como con los que trabajáis en el proyecto de la asignatura. 
 
-
 Una vez implementada la arquitectura IIoT se os propone que integréis un sistema de  comunicaciones con un entorno industrial simulado e incluyáis un procesado de datos previo a  la visualización de los datos en Grafana. 
 
 ![]({./img/Aspose.Words.413534b6-4ca3-41d6-9fb4-e8e165328afe.001.png)
@@ -87,7 +197,6 @@ Teniendo en cuenta los objetivos que se han mencionado en el apartado anterior, 
 - Visualizar en Grafana tanto los datos originales como los datos procesados. 
 
 **Para demostrar que habéis logrado estos resultados, se os pedirá que, en un período tiempo  de aproximadamente 1 o 2 semanas de duración, configuréis la máquina virtual con la opción  más económica y la dejéis encendida con los contenedores de Docker funcionando y  compartáis la IP con el equipo docente. Ello implicará que durante todo este tiempo la IP será  la misma y nosotros podremos acceder para validar vuestra arquitectura.**  
-
 
 
 # Introducción a la tercera parte del proyecto 

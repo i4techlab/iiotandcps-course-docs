@@ -1,4 +1,25 @@
 <!-- multilingual suffix: en, es -->
+
+<!-- [en] -->
+# Introduction
+
+## Project description
+
+The purpose of the practice is to delve into the use of cloud computing and IIoT tools for data acquisition in industrial systems. The overall objective of the project will be to create a *dashboard* that allows visualizing the data acquired and calculated, through graphs in different configurable panels in a web environment.
+
+For this it will be necessary to learn to use several tools that will allow:
+
+- Create Linux virtual machines and work on them remotely through commands, using communication protocols such as SSH and SCP.
+- Learn how information flow management software environments are used and what they are based on, and how data can be transmitted or viewed in the cloud.
+- Learn how to design and implement a structure of software containers (*containers*) using Docker.
+- Learn how to perform database read and write operations from applications capable of processing data and obtaining value-added information, such as MATLAB Online.
+
+These tools and technologies are going to be introduced in stages and specific objectives are going to be set that allow the final solution to be designed cumulatively.
+
+Keep in mind that the most important part of this project is that you know how to create these virtual machines, that you work with the Docker environment, that you install the necessary software and that you are able to start up the proposed IIoT architecture.
+
+During the course of the entire practice you will face the difficulties of implementation and start-up, and you will develop problem-solving skills related to the joint operation of all the elements present in the architecture that is intended to be implemented. Also, indicate that it is a project in which you must be able to solve the problems that you find. Do not be afraid to delete a virtual machine and create a new one if you see that you have made mistakes or if you are not sure about something, it is part of the process.
+
 <!-- [es] -->
 # Introducción
 
@@ -21,22 +42,3 @@ Durante el transcurso de toda la práctica afrontaréis las dificultades propias
 
 
 
-<!-- [en] -->
-# Introduction
-
-## Project description
-
-The purpose of the practice is to delve into the use of cloud computing and IIoT tools for data acquisition in industrial systems. The overall objective of the project will be to create a *dashboard* that allows visualizing the data acquired and calculated, through graphs in different configurable panels in a web environment.
-
-For this it will be necessary to learn to use several tools that will allow:
-
-- Create Linux virtual machines and work on them remotely through commands, using communication protocols such as SSH and SCP.
-- Learn how information flow management software environments are used and what they are based on, and how data can be transmitted or viewed in the cloud.
-- Learn how to design and implement a structure of software containers (*containers*) using Docker.
-- Learn how to perform database read and write operations from applications capable of processing data and obtaining value-added information, such as MATLAB Online.
-
-These tools and technologies are going to be introduced in stages and specific objectives are going to be set that allow the final solution to be designed cumulatively.
-
-Keep in mind that the most important part of this project is that you know how to create these virtual machines, that you work with the Docker environment, that you install the necessary software and that you are able to start up the proposed IIoT architecture.
-
-During the course of the entire practice you will face the difficulties of implementation and start-up, and you will develop problem-solving skills related to the joint operation of all the elements present in the architecture that is intended to be implemented. Also, indicate that it is a project in which you must be able to solve the problems that you find. Do not be afraid to delete a virtual machine and create a new one if you see that you have made mistakes or if you are not sure about something, it is part of the process.
