@@ -1,5 +1,11 @@
 <!-- multilingual suffix: en, es -->
 
+<!-- [en] -->
+# Acces to influx
+asdfasdf
+
+<!-- [es] -->
+
 # Generación y volcado de datos en Node-RED
 El siguiente paso será **programar sobre Node-RED un flujo de comunicaciones capaz de generar datos artificiales y volcarlos en la base de datos de InfluxDB que habéis creado.**
 

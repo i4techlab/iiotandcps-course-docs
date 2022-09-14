@@ -1,5 +1,12 @@
 <!-- multilingual suffix: en, es -->
 
+<!-- [en] -->
+# Acces to influx
+asdfasdf
+
+
+<!-- [es] -->
+
 # Acceso a la base de datos InfluxDB
 Una vez levantados los contenedores, será necesario generar una base de datos dentro del contenedor que ejecuta el software InfluxDB. Para hacerlo, entraréis al terminal dedicado del contenedor y accederéis a la interfaz de línea de comandos de InfluxDB.
 

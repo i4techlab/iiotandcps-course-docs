@@ -1,5 +1,11 @@
 <!-- multilingual suffix: en, es -->
 
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
+
 <!-- [es] -->
 # Instalación de software en contenedores
 Los recursos que haréis correr en la máquina virtual son:
@@ -11,6 +17,13 @@ Los recursos que haréis correr en la máquina virtual son:
 En la solución tecnológica que vais a implementar instalaréis cada software en un contenedor aislado (*container*), como podéis ver en la siguiente captura:
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.025.png)
+
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
+
 <!-- [es] -->
 ## Instalación de Docker
 Una vez conectados a vuestra máquina virtual mediante SSH, deberéis ejecutar los comandos que se presentan en esta sección para descargar e instalar Docker. Los comandos que se encuentran a continuación son los mismos que se aportan en la documentación oficial de Docker, que podéis encontrar en el siguiente enlace:
@@ -70,6 +83,11 @@ NOTA: La **-r** en el comando indica que se está enviando un directorio complet
 En el terminal deberíais observar que se indica el progreso de la transferencia de archivos, alcanzando el 100% cuando se haya completado. Se recomienda que verifiquéis, estando conectados por SSH a la VM, que podéis localizar fácilmente el directorio IIACPS\_base\_folder.
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.026.png)
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
 <!-- [es] -->
 ## Creación de imagen *custom* de Node-RED
 Debido a que vamos a necesitar usar algunos paquetes concretos de Node-RED que no vienen incluidos en la versión base, será necesario que montéis una imagen que incluya dichos paquetes. **La arquitectura docker que habéis enviado por SCP a la máquina virtual ya está preparada para ello**. Para montar la imagen, deberéis situaros dentro de la carpeta IIA\_CPS\_base\_folder y ejecutar el siguiente comando (NOTA: El punto después de **tag** está incluido en el comando):
@@ -79,12 +97,22 @@ Debido a que vamos a necesitar usar algunos paquetes concretos de Node-RED que n
 Observaréis al pulsar “Enter” que se inicia una secuencia de 4 pasos. 
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.027.png)
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
 <!-- [es] -->
 Cuando finalice la secuencia, podéis verificar que se ha creado correctamente con el siguiente comando:
 
       $ sudo docker image ls
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.028.png)
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
 <!-- [es] -->
 Una vez terminada, **deberéis editar el archivo “docker-compose.yml” el tag de la imagen que acabáis de montar**.  Podéis salir del directorio de Nodered con el siguiente comando:
 
@@ -97,6 +125,11 @@ Una vez en la carpeta donde se encuentra “docker-compose.yml”, podéis edita
 Tened cuidado de no añadir espacios o tabulaciones. Solo debéis editar la línea que se muestra en la siguiente captura modificando el tag que habéis elegido para vuestra imagen. Podréis navegar por el archivo con las flechas direccionales del teclado.
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.029.png)
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
 <!-- [es] -->
 
 
@@ -111,6 +144,11 @@ Para el caso de Grafana también será necesario generar una imagen. Para montar
 Acceded al archive “docker-compose.yml” como se indica en la sección anterior y en el servicio de Grafana escribid el tag de la imagen que habéis montado.
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.030.png)
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
 <!-- [es] -->
 
 ## Levantado de contenedores
@@ -131,11 +169,21 @@ En cualquiera de los dos casos, para verificar que los contenedores están activ
 En la consola deberíais visualizar una lista como la siguiente. Tened en cuenta que es posible que la primera vez que ejecutáis el comando no se hayan generado los tres contenedores. Volved a introducir el comando hasta verificar que los tres contenedores están funcionando.
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.032.png)
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
 <!-- [es] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.031.png)
 En este punto, si lo deseáis, ya podéis modificar las prestaciones de la máquina virtual debido a que **ya se ha instalado todo el software necesario**. La opción más económica es **B1ls**, ver la siguiente captura. 
 <!-- [common] -->
 ![](../img/Aspose.Words.b1061091-e8de-4e39-91fb-4ba4b8e356ff.033.png)
+<!-- [en] -->
+
+# Containers software usage
+
+To be filles
 <!-- [es] -->
 
 # Configuración de los puertos de la máquina virtual

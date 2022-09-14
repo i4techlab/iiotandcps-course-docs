@@ -1,5 +1,11 @@
 <!-- multilingual suffix: en, es -->
 
+<!-- [en] -->
+# Acces to influx
+asdfasdf
+
+<!-- [es] -->
+
 # Comunicación con entorno industrial en Node-RED 
 En primer lugar, deberéis acceder a Node-RED. No es necesario que eliminéis el *flow* generado  para la primera parte del proyecto, podéis crear uno nuevo que aparecerá como una nueva  pestaña haciendo clic sobre el signo “+” que se indica en la siguiente captura: 
 
@@ -11,7 +17,7 @@ De nuevo, como en la primera parte del proyecto, el diseño del *flow* de Node-R
 
 Se recomienda el uso de bloques *debug* para validar cada paso del proceso. 
 
-### Bloque Inject 
+## Bloque Inject 
 
 Este tipo de bloque ya se introdujo en la primera parte del proyecto**, por ello solo indicamos  que inicialmente lo configuréis con accionamiento manual,** es decir, que no genere pulsos de  forma periódica. 
 
