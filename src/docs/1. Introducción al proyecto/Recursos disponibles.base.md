@@ -2,7 +2,7 @@
 
 <!-- [en] -->
 
-## Recursos disponibles
+# Recursos disponibles
 Tenéis a vuestra disposición documentación adicional de las tecnologías que se utilizan a lo largo del proyecto:
 
 - Protocolos de comunicaciones.
@@ -19,7 +19,7 @@ Además, en Atenea encontraréis vídeos que introducen Node-RED e Influx de for
 
 <!-- [es] -->
 
-## Recursos disponibles
+# Recursos disponibles
 Tenéis a vuestra disposición documentación adicional de las tecnologías que se utilizan a lo largo del proyecto:
 
 - Protocolos de comunicaciones.

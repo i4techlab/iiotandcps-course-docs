@@ -2,8 +2,9 @@
 
 <!-- [en] -->
 
+# Desarrollo de una arquitectura IIoT en la nube (*cloud computing*)
 
-
+La primera parte del proyecto tiene por objetivo generar la arquitectura IIoT y verificar que tiene la capacidad de gestionar flujos de datos. Las comunicaciones con el entorno industrial 
 
 <!-- [es] -->
 
@@ -18,6 +19,7 @@ La primera parte del proyecto tiene por objetivo generar la arquitectura IIoT y 
 En la arquitectura IIoT, vosotros mismos generaréis datos artificiales dentro del propio software de gestión de flujos de comunicación (Node-RED) que os permitan verificar que la base de datos y los paneles de visualización funcionan como se espera. Se espera que sigáis las secciones en orden ya que van tratando de forma pautada los pasos necesarios para implementar la arquitectura IIoT propuesta.
 <!-- [common] -->
 ![](./img/001.png){: .center}
+
 <!-- [es] -->
 Cuando lo hayáis logrado, podréis avanzar a la segunda parte del proyecto, que también dispone de su respectiva guía, que consiste en la integración de la arquitectura IIoT que habéis generado en un sistema ciber-físico (arquitectura CPS).
 ## Motivación
