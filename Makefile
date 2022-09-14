@@ -1,10 +1,10 @@
-all: clean translate build
+all: clean  translate-and-build
 
-translate:
+translate-and-build:
 	@echo " "
 	@echo "Making translation files"
 	@echo "========================="
-	@mmg -r -y
+	- @mmg -r -y -vv || true
 	@echo " "
 	@echo "Moving files to build directory"
 	@echo "========================="
@@ -13,12 +13,11 @@ translate:
 	@cp src/mkdocs-base.yml build/mkdocs-base.yml
 	@echo " "
 	@echo "Done"
-
-build:
+	@echo " "
 	@echo " "
 	@echo "Building sources"
 	@echo "========================="
-	@mkdocs build -f build/mkdocs-prod.yml
+	@mkdocs build -f build/mkdocs.yml
 	@echo " "
 	@echo "Done"
 
