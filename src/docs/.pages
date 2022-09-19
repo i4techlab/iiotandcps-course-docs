@@ -1,6 +1,6 @@
 nav:
-    - Bienvenida: index.*.md
-    - Introducción: 1-intro
-    - Maquinas virtuales: 2-vms
-    - IIot y comunicaciones: 3-iiot
-    - Aplicación de IIoT: 4-app
+    - Bienvenido: index.*.md
+    - Introducción: 1 Intro
+    - Máquinas virtuales: 2 VMS
+    - IIot y comunicaciones: 3 IIoT
+    - Aplicación de IIoT: 4 App
