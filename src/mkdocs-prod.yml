@@ -11,9 +11,8 @@ plugins:
       material_alternate: true
       nav_translations:
         en:
-          Comunicaciones con entorno industrial en Node-RED: Comms
-          Bienvenida: Welcome
+          Bienvenido: Welcome
           Introducción: Introduction
-          Maquinas virtuales: Virtual machines
-          IIot y comunicaciones: IIoT and Communications
+          Máquinas virtuales: Virtual machines
+          IIoT y comunicaciones: IIoT and communications
           Aplicación de IIoT: IIoT application
