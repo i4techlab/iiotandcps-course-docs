@@ -2,7 +2,14 @@
 
 <!-- [en] -->
 
-# Communication with industrial environment in Node-RED
+# Communications in Node-RED
+
+<!-- [es] -->
+
+# Comunicación con entorno industrial en Node-RED 
+
+<!-- [en] -->
+
 First of all, you will need to access Node-RED. It is not necessary to delete the *flow* generated for the first part of the project, you can create a new one that will appear as a new tab by clicking on the “+” sign indicated in the following screenshot:
 
 ![](./img/2.2.png){: .center}
@@ -149,7 +156,6 @@ In the InfluxDB database, you should see data like the one shown in the followin
 
 <!-- [es] -->
 
-# Comunicación con entorno industrial en Node-RED 
 En primer lugar, deberéis acceder a Node-RED. No es necesario que eliminéis el *flow* generado  para la primera parte del proyecto, podéis crear uno nuevo que aparecerá como una nueva  pestaña haciendo clic sobre el signo “+” que se indica en la siguiente captura: 
 
 ![](./img/2.2.png){: .center}
@@ -160,11 +166,11 @@ De nuevo, como en la primera parte del proyecto, el diseño del *flow* de Node-R
 
 Se recomienda el uso de bloques *debug* para validar cada paso del proceso. 
 
-### Bloque Inject 
+## Bloque Inject 
 
 Este tipo de bloque ya se introdujo en la primera parte del proyecto**, por ello solo indicamos  que inicialmente lo configuréis con accionamiento manual,** es decir, que no genere pulsos de  forma periódica. 
 
-### Bloque function anterior al bloque Modbus Flex Getter 
+## Bloque function anterior al bloque Modbus Flex Getter 
 
 Este bloque *function* se utiliza para configurar el *payload* del mensaje que recibe el bloque  *Modbus Flex Getter* con unos parámetros concretos para que este último pueda leer los datos  que almacena el PLC con el que nos queremos comunicar. 
 
@@ -196,7 +202,7 @@ Los nombres de los parámetros quedarán coloreados en verde y los valores de lo
 
 Una vez configurado el bloque *function* será necesario configurar también el bloque *Modbus  Flex Getter* para validar que ambos bloques funcionan correctamente.
 
-### Bloque Modbus Flex Getter 
+## Bloque Modbus Flex Getter 
 
 El bloque *Modbus Flex Getter,* del paquete de Modbus, permite recibir datos de dispositivos que  se comuniquen mediante el protocolo Modbus TCP/IP, como el PLC que almacena los  parámetros medidos por el sensor de vibración. 
 
@@ -223,7 +229,7 @@ En este punto, el *flow* que deberíais haber generado consiste de 3 bloques: *I
 
 ![](./img/2.8.png){: .center}
 
-### Bloque function posterior al bloque Modbus Flex Getter 
+## Bloque function posterior al bloque Modbus Flex Getter 
 Para el diseño del código de este bloque *function* se deben tener en cuenta tres premisas: 
 
 1) Los datos recibidos corresponden a los valores decimales de los 4 parámetros, pero han  sido codificados como enteros sin signo (*unsigned*) para transmitirlos en binario. Se os  proporcionará un código que permite transformar los datos recibidos a los valores  decimales originales. 
@@ -286,7 +292,7 @@ Como se indica en la siguiente captura, debéis incluir la estructura de datos a
 
 ![](./img/2.12.png){: .center}
 
-### Bloque Influx Batch 
+## Bloque Influx Batch 
 
 La configuración del bloque Influx Batch es la misma que la que se indica en el documento guía  de la primera parte del proyecto (página XX). En este punto ya deberíais tener un *flow* completo  como el siguiente: 
 

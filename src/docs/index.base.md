@@ -1,9 +1,14 @@
 <!-- multilingual suffix: en, es -->
 
 <!-- [en] -->
+
 # Introduction
 
-## Project description
+<!-- [es] -->
+
+# Introducción
+
+<!-- [en] -->
 
 The purpose of the practice is to delve into the use of cloud computing and IIoT tools for data acquisition in industrial systems. The overall objective of the project will be to create a *dashboard* that allows visualizing the data acquired and calculated, through graphs in different configurable panels in a web environment.
 
@@ -21,9 +26,6 @@ Keep in mind that the most important part of this project is that you know how t
 During the course of the entire practice you will face the difficulties of implementation and start-up, and you will develop problem-solving skills related to the joint operation of all the elements present in the architecture that is intended to be implemented. Also, indicate that it is a project in which you must be able to solve the problems that you find. Do not be afraid to delete a virtual machine and create a new one if you see that you have made mistakes or if you are not sure about something, it is part of the process.
 
 <!-- [es] -->
-# Introducción
-
-## Descripción del proyecto
 
 La finalidad de la práctica es adentrarse en el uso de herramientas de computación en la nube e IIoT para la adquisición de datos en sistemas industriales. El objetivo global del proyecto será crear un *dashboard* que permita visualizar los datos adquiridos y calculados, mediante gráficas en diferentes paneles configurables en un entorno web.
 

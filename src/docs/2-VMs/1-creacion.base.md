@@ -4,6 +4,13 @@
 <!-- [en] -->
 
 # Create the virtual machine
+
+<!-- [es] -->
+
+# Creación de la máquina virtual
+
+<!-- [en] -->
+
 To generate virtual machines you will create an Azure student account with your email **@estudiant.upc.edu**. Once this is done, you will have to activate an Azure subscription for students, with which you will have access to some services of the platform, in which you can spend 100 dollars that the platform will assign you for free. You do not need to give bank card information or make any real expenses to register the service at any time in the process.
 
 Next, you have the web pages where you can register for the services.
@@ -165,10 +172,8 @@ Highlight the use of the following commands:
 
 On the other hand, for Windows users we recommend installing Windows Terminal, a program that offers a terminal with many features (navigate up and down to be able to view all the commands entered and the information returned by the machine, generate several terminal sessions in the form of tabs in the same window, …). This application is free and you can find it in the Microsoft Store.
 
-
 <!-- [es] -->
 
-# Creación de la máquina virtual
 Para generar máquinas virtuales crearéis una cuenta personal de Azure a la que, posteriormente, le asignaréis vuestro email **@estudiant.upc.edu**. Una vez hecho esto deberéis activar una subscripción de Azure para estudiantes, con lo que tendréis acceso a algunos servicios de la plataforma, en los que podréis gastar 100 dólares que la plataforma os asignará gratuitamente. No es necesario que deis información de tarjetas bancarias ni realizar ningún gasto real para dar de alta el servicio en ningún momento del proceso.
 
 A continuación, tenéis las páginas web donde poder daros de alta en los servicios.

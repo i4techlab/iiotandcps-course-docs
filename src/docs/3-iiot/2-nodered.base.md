@@ -2,7 +2,14 @@
 
 <!-- [en] -->
 
-# Generation and dumping of data in Node-RED
+# Node-RED programming
+
+<!-- [es] -->
+
+# Generación y volcado de datos en Node-RED
+
+<!-- [en] -->
+
 The next step will be to **program a communication flow on Node-RED capable of generating artificial data and dump it into the InfluxDB database that you have created.**
 
 Remember that to access the Node-RED container through the browser you can use the following address:  
@@ -120,7 +127,6 @@ Keep in mind that if you have kept the Node-RED flow writing periodically, the l
 
 <!-- [es] -->
 
-# Generación y volcado de datos en Node-RED
 El siguiente paso será **programar sobre Node-RED un flujo de comunicaciones capaz de generar datos artificiales y volcarlos en la base de datos de InfluxDB que habéis creado.**
 
 Recordad que para acceder al contenedor de Node-RED mediante el navegador podéis utilizar la siguiente dirección: [*http://”IPpublicaDeVuestraVM”:1880*]()

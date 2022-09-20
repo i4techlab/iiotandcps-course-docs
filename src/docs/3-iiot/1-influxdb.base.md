@@ -2,7 +2,14 @@
 
 <!-- [en] -->
 
-# Access to the InfluxDB database
+# InfluxDB database
+
+<!-- [es] -->
+
+# Acceso a la base de datos InfluxDB
+
+<!-- [en] -->
+
 Once the containers are up, it will be necessary to generate a database inside the container that runs the InfluxDB software. To do so, you will enter the container's dedicated terminal and access the InfluxDB command line interface.
 
 First of all, you must identify the name of the Influxdb container, as indicated in the following screenshot:
@@ -36,7 +43,6 @@ You can find all the documentation regarding the commands used to manage databas
 
 <!-- [es] -->
 
-# Acceso a la base de datos InfluxDB
 Una vez levantados los contenedores, será necesario generar una base de datos dentro del contenedor que ejecuta el software InfluxDB. Para hacerlo, entraréis al terminal dedicado del contenedor y accederéis a la interfaz de línea de comandos de InfluxDB.
 
 En primer lugar, deberéis identificar el nombre del contenedor de Influxdb, como se indica en la siguiente captura:

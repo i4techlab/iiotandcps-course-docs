@@ -3,6 +3,13 @@
 <!-- [en] -->
 
 # Installing containerized software
+
+<!-- [es] -->
+
+# Instalación de software en contenedores
+
+<!-- [en] -->
+
 The resources that you will run in the virtual machine are:
 
 - **Node-RED**, a communications manager with the plant and other applications in the cloud, which also allows programs to be executed (in the first part of the project, to check its operation, NodeRed will contain a generator of sinusoidal signals at a certain frequency and amplitude that will emulate the captured signal).
@@ -230,7 +237,7 @@ You can do it by consulting the list of available blocks in the vertical bar to 
 If you type the names of the packages in the node browser, at the top of the nodes palette, you can verify that you have available the blocks of the Modbus package (in red), the blocks of the Influxdb package (in brown) and the blocks of the dashboard package (in blue).
 
 <!-- [es] -->
-# Instalación de software en contenedores
+
 Los recursos que haréis correr en la máquina virtual son:
 
 - **Node-RED**, un gestor de comunicaciones con la planta y otras aplicaciones en nube, que permite además ejecutar programas (en la primera parte del proyecto, para comprobar su funcionamiento, NodeRed contendrá un generador de señales sinusoidales a cierta frecuencia y amplitud que emulará la señal capturada).

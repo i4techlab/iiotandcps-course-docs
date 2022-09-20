@@ -2,7 +2,15 @@
 
 <!-- [en] -->
 
-# Development of an IIoT architecture in the cloud (cloud computing)
+# Project description
+
+<!-- [es] -->
+
+# Descripción del proyecto
+
+<!-- [en] -->
+
+**Development of an IIoT architecture in the cloud (cloud computing)**
 
 This guidance document only covers the first part of the project, which aims to build the IIoT architecture and verify that it has the ability to manage data flows. Communications with the industrial environment and data processing will be carried out in the second part of the project.
 
@@ -110,7 +118,7 @@ Taking into account the objectives that have been mentioned in the previous sect
 
 <!-- [es] -->
 
-# Desarrollo de una arquitectura IIoT en la nube (*cloud computing*)
+**Desarrollo de una arquitectura IIoT en la nube (*cloud computing*)**
 
 La primera parte del proyecto tiene por objetivo generar la arquitectura IIoT y verificar que tiene la capacidad de gestionar flujos de datos. Las comunicaciones con el entorno industrial y el procesado de datos se llevarán a cabo en la segunda parte del proyecto.
 

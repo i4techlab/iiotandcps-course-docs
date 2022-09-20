@@ -4,6 +4,12 @@
 
 # Data visualization in Grafana
 
+<!-- [es] -->
+
+# Visualización de datos en Grafana 
+
+<!-- [en] -->
+
 You must create a Grafana *dashboard* that allows you to view the temporary record of the data stored in the database.
 
 Remember that the guide document for the first part of the project explains step by step how to add an InfluxDB database to Grafana and how to generate a graphic panel within a dashboard.
@@ -46,8 +52,6 @@ For this part of the project, no specific *dashboard* structure is set. It is su
 Take into account if the use of different colors helps to clearly differentiate both the graphs from each other and the ranges of values that the data take.
 
 <!-- [es] -->
-
-# Visualización de datos en Grafana 
 
 Deberéis crear un *dashboard* de Grafana que permita visualizar el registro temporal de los datos  almacenados en la base de datos. 
 

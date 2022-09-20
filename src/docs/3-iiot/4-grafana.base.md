@@ -3,6 +3,13 @@
 <!-- [en] -->
 
 # Data visualization in Grafana
+
+<!-- [es] -->
+
+# Visualización de datos en Grafana
+
+<!-- [en] -->
+
 With the containers raised, you can access the container containing Grafana through your browser using the following URL:
 
 [*http://”public\_IP\_of\_yourVM”:3000*]()
