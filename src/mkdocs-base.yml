@@ -1,8 +1,8 @@
 site_name: IIoT&CPS
 theme:
   name: material
-  logo: asset/logo.svg
-  favicon: asset/favicon.png
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
 docs_dir: docs
   
 markdown_extensions:
