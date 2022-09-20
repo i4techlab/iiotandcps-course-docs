@@ -4,11 +4,48 @@ plugins:
   - search
   - awesome-pages:
       strict: false
+  - with-pdf:
+      author: Ángel Fernández Sobrino
+      copyright: Universitat Politécnica de Catalunya
+      #
+      #cover: false
+      #back_cover: true
+      cover_title: Industrial IoT and Cyberphysical Systems
+      cover_subtitle: Course project documentation
+      #custom_template_path: TEMPLATES PATH
+      #
+      toc_title: Table of contents
+      #heading_shift: false
+      #toc_level: 3
+      #ordered_chapter_level: 2
+      #excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      #
+      #exclude_pages:
+      #    - 'bugs/'
+      #    - 'appendix/contribute/'
+      #convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      #two_columns_level: 3
+      #
+      #render_js: true
+      #headless_chrome_path: headless-chromium
+      #
+      #output_path: any-place/document.pdf
+      #enabled_if_env: ENABLE_PDF_EXPORT
+      #
+      #debug_html: true
+      #show_anchors: true
+      #verbose: true
   - i18n:
       default_language: es
       languages:
-        en: english
         es: spanish
+        en: english
       material_alternate: true
       nav_translations:
         en:

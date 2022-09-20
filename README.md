@@ -32,6 +32,7 @@ The documentation is built using [multilingual-markdown-generator](https://githu
 - bash
 - python3
 - Python requirements (see `requirements.txt`)
+- Weasyprint (for [mkdocs-with-pdf](https://github.com/orzih/mkdocs-with-pdf) - see [here](https://doc.courtbouillon.org/weasyprint/latest/first_steps.html#windows))
 
 
 Then, you can build the documentation by using the makefile provided in the repository, which will generate the documentation in the `./build/site` folder. To build the documentation, you can use the following command:
