@@ -31,7 +31,7 @@ In the capture that you have as an example, two Grafana panels are shown:
 - The first with the measured data of the Kurtosis parameter, which has a new value every 5 seconds. Remember that this corresponds to the fact that the Node-RED *flow* only writes to the database every time it reads new data from the PLC.
 - The second with the processed data of the Kurtosis parameter. In this case, the processed data is only calculated and written to the database each time you run the MATLAB script.
 
-# Visualization of data and results stored in Matlab
+## Visualization of data and results stored in Matlab
 For the last part of the project, you will have to generate a Grafana *dashboard* that allows you to visualize the data that you have written from the MATLAB Online script.
 
 For this part of the project, no specific *dashboard* structure is set. It is suggested that you explore the possibilities of Grafana to generate a graphic panel that contains:
@@ -77,7 +77,7 @@ En la captura que tenéis como ejemplo se muestran dos paneles de Grafana:
 
 - El segundo con los datos procesados del parámetro Kurtosis. En este caso, los datos  procesados solo se calculan y escriben en la base de datos cada vez que ejecutáis el  script de MATLAB.
 
-# Visualización de datos y resultados almacenados en Matlab
+## Visualización de datos y resultados almacenados en Matlab
 
 Para la última parte del proyecto, deberéis generar un *dashboard* de Grafana que os permita visualizar los datos que habéis escrito  des del script de MATLAB Online. 
 
