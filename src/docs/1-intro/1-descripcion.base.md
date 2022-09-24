@@ -4,12 +4,6 @@
 
 # Project description
 
-<!-- [es] -->
-
-# Descripción del proyecto
-
-<!-- [en] -->
-
 **Development of an IIoT architecture in the cloud (cloud computing)**
 
 This guidance document only covers the first part of the project, which aims to build the IIoT architecture and verify that it has the ability to manage data flows. Communications with the industrial environment and data processing will be carried out in the second part of the project.
@@ -117,6 +111,8 @@ Taking into account the objectives that have been mentioned in the previous sect
 > **To demonstrate that you have achieved these results, you will be asked, over a period of time of approximately 1-2 weeks, to configure the virtual machine with the cheapest option and leave it powered on with the Docker containers running and share the IP with the teaching team. This will imply that during all this time the IP will be the same and we will be able to access it to validate your architecture.**
 
 <!-- [es] -->
+
+# Descripción del proyecto
 
 **Desarrollo de una arquitectura IIoT en la nube (*cloud computing*)**
 
