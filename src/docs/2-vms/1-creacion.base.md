@@ -136,7 +136,7 @@ To do so, copy the public key and once inside the virtual machine execute the fo
 ```bash
 ls -a
 
-cd. ssh
+cd .ssh
 ```
 
 The following command allows you to access the file that you must configure:
@@ -294,7 +294,7 @@ Para hacerlo, copiad dicha clave pública y una vez dentro de la máquina virtua
 ```bash
 ls -a
 
-cd. ssh
+cd .ssh
 ```
 
 El siguiente commando permite acceder al archivo que debéis configurar:
