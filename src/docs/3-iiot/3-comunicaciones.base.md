@@ -143,7 +143,7 @@ As indicated in the following screenshot, you must include the data structure be
 ## Influx Batch block
 The configuration of the *Influx Batch* block is the same as that indicated in the guide document of the first part of the project (page XX). At this point you should already have a complete flow like the following:
 
-![](./img/2.12_2.png){: .center}
+![](./img/2.3.png){: .center}
 
 **Objective**
 
@@ -296,7 +296,7 @@ Como se indica en la siguiente captura, debéis incluir la estructura de datos a
 
 La configuración del bloque Influx Batch es la misma que la que se indica en el documento guía  de la primera parte del proyecto (página XX). En este punto ya deberíais tener un *flow* completo  como el siguiente: 
 
-![](./img/2.12_2.png){: .center}
+![](./img/2.3.png){: .center}
 
 **Objetivo** 
 
