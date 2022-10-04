@@ -52,7 +52,7 @@ The security provided by a hash algorithm lies in its ability to produce a singl
 
 On the other hand, the SSH security protocol uses *hash* functions that allow verifying if the public key provided is known; in other words, if the other interlocutor is known and safe.
 
-<!-- [en] -->
+<!-- [es] -->
 
 # Protocolo SSH, claves públicas/privadas
 
