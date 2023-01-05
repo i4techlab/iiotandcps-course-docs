@@ -1,4 +1,4 @@
 nav:
     - ...
-    - Introducción a Docker (PDF): ./assets/Introduccion_a_docker.pdf
+    - Introducción a Docker (PDF): ./assets/Introduccion_a_Docker.pdf
     - Herramientas de Docker (PDF): ./assets/Microsoft_Docker.pdf
