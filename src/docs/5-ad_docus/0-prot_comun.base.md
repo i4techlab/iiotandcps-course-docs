@@ -6,7 +6,7 @@
 
 <!-- [es] -->
 
-## Protocolos de comunicaciones
+# Protocolos de comunicaciones
 
 <!-- [en] -->
 
