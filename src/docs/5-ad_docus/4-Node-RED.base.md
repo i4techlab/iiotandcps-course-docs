@@ -2,11 +2,11 @@
 
 <!-- [en] -->
 
-# Programming of communication flows: Node-RED
+# NodeRED. Flow-based programming
 
 <!-- [es] -->
 
-# Programación de flujos de comunicación: Node-RED 
+# NodeRED. Programación basada en flujos
 
 <!-- [en] -->
 

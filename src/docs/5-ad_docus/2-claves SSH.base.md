@@ -2,11 +2,11 @@
 
 <!-- [en] -->
 
-# SSH protocol, public/private keys
+# SSH protocol. Asymmetric cryptography
 
 <!-- [es] -->
 
-# Protocolo SSH, claves públicas/privadas
+# Protocolo SSH. Encriptación asimétrica
 
 <!-- [en] -->
 

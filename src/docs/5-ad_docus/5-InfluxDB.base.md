@@ -2,11 +2,11 @@
 
 <!-- [en] -->
 
-# Temporary database: InfluxDB
+# InfluxDB. Time series database
 
 <!-- [es] -->
 
-# Base de datos temporal: InfluxDB
+# InfluxDB. Base de datos de series temporales
 
 <!-- [en] -->
 

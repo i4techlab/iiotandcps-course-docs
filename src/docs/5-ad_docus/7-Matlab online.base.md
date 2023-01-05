@@ -2,11 +2,11 @@
 
 <!-- [en] -->
 
-# MATLAB Online, access and connection with InfluxDB
+# MATLAB Online. InfluxDB connection
 
 <!-- [es] -->
 
-# MATLAB Online, acceso y conexión con InfluxDB
+# MATLAB Online. Conexión con InfluxDB
 
 <!-- [en] -->
 

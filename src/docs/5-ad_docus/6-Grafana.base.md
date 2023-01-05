@@ -2,11 +2,11 @@
 
 <!-- [en] -->
 
-# Dashboard in real time: Grafana
+# Grafana. Web dashboards
 
 <!-- [es] -->
 
-# Dashboard en tiempo real: Grafana 
+# Grafana. Dashboards web
 
 <!-- [en] -->
 
